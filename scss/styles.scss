@@ -1,0 +1,79 @@
+
+@media only screen and (max-width: 500px) {
+    p {
+        font-size: 12px;
+    }
+}
+/* Variables */
+
+$fontPagina:'Nanum Myeongjo', serif;
+$colorLetrasPag: white;
+$bgColor: #1f1d1d;
+/*Cuerpo de Index*/
+
+
+body {
+    background-image: url(../multimedia/cafe.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    @extend h4;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+h4 {
+    font-family: $fontPagina;
+    color: $colorLetrasPag;
+}
+
+p{
+    font-family: $fontPagina;
+    color: $colorLetrasPag;
+}
+
+label {
+    font-family: $fontPagina;
+    color: $colorLetrasPag;
+}
+
+/* Footer*/
+
+footer {
+    background-color: $bgColor;
+    text-align: center;
+
+    img {
+        width: 40px;
+    }
+}
+
+/* Estilos Contacto*/
+
+.col { 
+    background: $bgColor; 
+    margin-top: 5rem; 
+    width: 100%; 
+    height: 90%; 
+    border-radius: 15px;
+}
+
+.form-label {
+    color:$colorLetrasPag; 
+    margin-top: 1rem;
+}
+
+.logoContacto {
+    width: 100%;
+}
+
+.container {
+    margin-bottom: 8rem
+}
+
+.btn-secondary {
+    margin-top: 3%;
+}

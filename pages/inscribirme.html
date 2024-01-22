@@ -1,0 +1,168 @@
+<!doctype html>
+    <html lang="en">
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Coffee blog</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        
+        <!--   CSS  -->
+
+        <link rel="stylesheet" href="../styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <!-- Fonts -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+      </head>
+
+    <body>
+      <header>
+        <nav class="navbar bg-dark border-bottom border-body navbar-expand-lg" data-bs-theme="dark"> 
+          <div class="container-fluid --bs-light">
+            <a class="navbar-brand" href="../index.html">
+              <img src="../images/Picsart_23-11-02_13-14-46-738.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="resenas.html">Reseñas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="locales.html">Cafeterías</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">Contacto</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="inscribirme.html">Inscribirme</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+  
+
+      <section class="container">
+        <div class="row">
+          <div class="col">
+            <div class="mb-3">
+              <h1> Registrar mi cafetería</h1>
+              <label for="exampleFormControlInput1" class="form-label">Nombre de la Cafetería</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre cafeteria">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">Mail de contacto</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="mail@ejemplo.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">Sobre tu Cafetería</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Historia, ubicación, menú, personal, ambiente, etc..." rows="9"></textarea>  
+            </div> 
+            <h4> Agrega imágenes a tu cafetería</h4>
+            <div class="input-group mb-3">
+              <input type="file" class="form-control" id="inputGroupFile02">
+              <label class="input-group-text" for="inputGroupFile02">Subir archivos</label>
+            </div>
+            <button type="button" class="btn btn-secondary" style="margin-bottom:2%; margin-top: 1%;">Enviar</button>
+          </div>
+        </div>
+
+        <div class="row"> 
+          <div class="col">
+            <h1> Registrarme como usuario</h1>
+            <form class="row g-3 needs-validation" novalidate >
+              <div class="col-md-4">
+                <label for="validationCustom01" class="form-label">Nombre/s</label>
+                <input type="text" class="form-control" id="validationCustom01" value="Juan" required>
+                <div class="valid-feedback">
+                  Se ve bien!
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustom02" class="form-label">Apellido/s</label>
+                <input type="text" class="form-control" id="validationCustom02" value="Perez" required>
+                <div class="valid-feedback">
+                  Se ve bien!
+                </div>
+              </div>
+              <div class="col-md-4">
+                <label for="validationCustomUsername" class="form-label">Usuario</label>
+                <div class="input-group has-validation">
+                  <span class="input-group-text" id="inputGroupPrepend">@</span>
+                  <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                  <div class="invalid-feedback">
+                    Por favor escriba un nombre de usuario.
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <label for="validationCustom03" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="validationCustom03" required>
+                <div class="invalid-feedback">
+                  Por favor escriba una ciudad válida.
+                </div>
+              </div>
+              <div class="col-md-3">
+                <label for="validationCustom04" class="form-label">Provincia</label>
+                <select class="form-select" id="validationCustom04" required>
+                  <option selected disabled value="">Seleccione...</option>
+                  <option>...</option>
+                </select>
+                <div class="invalid-feedback">
+                  Por favor seleccione una provincia válida.
+                </div>
+              </div>
+              <div class="col-md-3">
+                <label for="validationCustom05" class="form-label">Código Postal</label>
+                <input type="text" class="form-control" id="validationCustom05" required>
+                <div class="invalid-feedback">
+                  Por favor ingrese un código válido.
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                  <label class="form-check-label" for="invalidCheck">
+                    Acepto los términos y condiciones.
+                  </label>
+                  <div class="invalid-feedback">
+                    Debes aceptar antes de enviar.
+                  </div>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="button" class="btn btn-secondary" style="margin-bottom: 3%;">Enviar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      
+      <footer>
+        <div>
+          <a href="https://instagram.com" target="_blank"><img src="/images/ig2.png" alt="iglogo"></a>
+          <a href="https://facebook.com" target="_blank"><img src="/images/fb.png" alt="fblogo"></a>
+          <a href="https://whatsapp.com" target="_blank"><img src="/images/wp.png" alt="wplogo"></a>
+          <a href="https://tiktok.com" target="_blank"><img src="/images/tk.png" alt="tklogo"></a>
+        </div>
+      </footer>
+
+<!-- Script Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    </body>
+  </html>
+
+
+

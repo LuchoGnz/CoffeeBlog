@@ -1,0 +1,70 @@
+@media only screen and (max-width: 500px) {
+  p {
+    font-size: 12px;
+  }
+}
+/* Variables */
+/*Cuerpo de Index*/
+body {
+  background-image: url(images/cafe.jpg);
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  font-size: 28px;
+  text-decoration: none;
+}
+
+h4, h1 {
+  font-family: "Nanum Myeongjo", serif;
+  color: white;
+}
+
+p {
+  font-family: "Nanum Myeongjo", serif;
+  color: white;
+}
+
+label {
+  font-family: "Nanum Myeongjo", serif;
+  color: white;
+}
+
+/* Footer*/
+footer {
+  background-color: #1f1d1d;
+  text-align: center;
+}
+footer img {
+  width: 40px;
+}
+
+/* Estilos Contacto*/
+.col {
+  background: #1f1d1d;
+  margin-top: 5rem;
+  width: 100%;
+  height: 90%;
+  border-radius: 15px;
+}
+
+.form-label {
+  color: white;
+  margin-top: 1rem;
+}
+
+.logoContacto {
+  width: 100%;
+}
+
+.container {
+  margin-bottom: 8rem;
+}
+
+.btn-secondary {
+  margin-top: 3%;
+}
+
+/*# sourceMappingURL=styles.css.map */
